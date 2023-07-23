@@ -16,4 +16,4 @@ For a detailed description of every instruction please refer to the [[Looks_Like
 
 ### Program Structure
 LLB programs do not have something like a main function. Execution starts at the first instruction and ends at the last.
-In between ASCII codes SOH and EOT jump symbols can be defined which can later be jumped to again.
+Global variables must be declared first.
