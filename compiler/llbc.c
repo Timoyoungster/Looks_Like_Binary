@@ -9,6 +9,8 @@ int main(int argc, char *argv) {
     return -ERROR;
   }
   
+  // check if argument isn't path
+  
   FILE *code;
   code = fopen(argv[1], "r");
   FILE *out;
