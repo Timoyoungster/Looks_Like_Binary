@@ -1,5 +1,7 @@
 # Looks_Like_A_Cheat_Sheet
 
+List of available instructions of LLB
+
 |   Code   | Short | Description |
 |:--|:--|:--|
 | 00000000 | NUL | (null) |
