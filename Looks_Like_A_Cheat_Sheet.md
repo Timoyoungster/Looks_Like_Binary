@@ -130,42 +130,42 @@
 | 01111101 |     | } |
 | 01111110 |     | ~ |
 | 01111111 | DEL | (delete) |
-| 10000000 | ND  | (not defined) |
-| 10000001 | ND  | (not defined) |
-| 10000010 | ND  | (not defined) |
-| 10000011 | ND  | (not defined) |
-| 10000100 | ND  | (not defined) |
-| 10000101 | ND  | (not defined) |
-| 10000110 | ND  | (not defined) |
-| 10000111 | ND  | (not defined) |
-| 10001000 | ND  | (not defined) |
-| 10001001 | ND  | (not defined) |
-| 10001010 | ND  | (not defined) |
-| 10001011 | ND  | (not defined) |
-| 10001100 | ND  | (not defined) |
-| 10001101 | ND  | (not defined) |
-| 10001110 | ND  | (not defined) |
-| 10001111 | ND  | (not defined) |
-| 10010000 | ND  | (not defined) |
-| 10010001 | ND  | (not defined) |
-| 10010010 | ND  | (not defined) |
-| 10010011 | ND  | (not defined) |
-| 10010100 | ND  | (not defined) |
-| 10010101 | ND  | (not defined) |
-| 10010110 | ND  | (not defined) |
-| 10010111 | ND  | (not defined) |
-| 10011000 | ND  | (not defined) |
-| 10011001 | ND  | (not defined) |
-| 10011010 | ND  | (not defined) |
-| 10011011 | ND  | (not defined) |
-| 10011100 | ND  | (not defined) |
-| 10011101 | ND  | (not defined) |
-| 10011110 | ND  | (not defined) |
-| 10011111 | ND  | (not defined) |
-| 10100000 | ND  | (not defined) |
-| 10100001 | ND  | (not defined) |
-| 10100010 | ND  | (not defined) |
-| 10100011 | ND  | (not defined) |
+| 10000000 |     | (string start) |
+| 10000001 |     | (string end) |
+| 10000010 |     | (print string) |
+| 10000011 |     | (read char) |
+| 10000100 |     | (loop start) |
+| 10000101 |     | (loop end) |
+| 10000110 |     | (conditional start) |
+| 10000111 |     | (conditional end) |
+| 10001000 |     | (conditional branch true start) |
+| 10001001 |     | (conditional branch true end [& branch false start]) |
+| 10001010 |     | (conditional branch false end) |
+| 10001011 |     | (routine start) |
+| 10001100 |     | (routine end) |
+| 10001101 |     | (break) |
+| 10001110 |     | (return) |
+| 10001111 |     | (exit) |
+| 10010000 |     | (variable definition start) |
+| 10010001 |     | (variable definition end) |
+| 10010010 |     | (type int) |
+| 10010011 |     | (type float) |
+| 10010100 |     | (type string) |
+| 10010101 |     | (add) |
+| 10010110 |     | (subtract) |
+| 10010111 |     | (multiply) |
+| 10011000 |     | (divide) |
+| 10011001 |     | (modulo) |
+| 10011010 |     | (power) |
+| 10011011 |     | (and) |
+| 10011100 |     | (or) |
+| 10011101 |     | (not) |
+| 10011110 |     | (logical and) |
+| 10011111 |     | (logical or) |
+| 10100000 |     | (logical not) |
+| 10100001 |     | (grouping start) |
+| 10100010 |     | (grouping end) |
+| 10100011 |     | (call routine) |
 | 10100100 | ND  | (not defined) |
 | 10100101 | ND  | (not defined) |
 | 10100110 | ND  | (not defined) |

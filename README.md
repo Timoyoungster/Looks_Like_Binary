@@ -16,4 +16,4 @@ For a detailed description of every instruction please refer to the [[Looks_Like
 
 ### Program Structure
 LLB programs do not have something like a main function. Execution starts at the first instruction and ends at the last.
-Global variables must be declared first.
+Comments start at // and end at the next newline character (but their use is strongly discouraged)
