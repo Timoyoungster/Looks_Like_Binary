@@ -1,4 +1,4 @@
-## Looks_Like_Binary
+# Looks_Like_Binary
 … for when even plain binary would be too simple.
 
 ## Idea
