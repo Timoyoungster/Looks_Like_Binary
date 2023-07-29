@@ -168,7 +168,7 @@ List of available instructions of LLB
 | 10100001 |     | (grouping start) |
 | 10100010 |     | (grouping end) |
 | 10100011 |     | (call routine) |
-| 10100100 | ND  | (not defined) |
+| 10100100 |     | (pointer) |
 | 10100101 | ND  | (not defined) |
 | 10100110 | ND  | (not defined) |
 | 10100111 | ND  | (not defined) |
